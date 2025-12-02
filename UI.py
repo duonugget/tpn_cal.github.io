@@ -378,8 +378,6 @@ st.markdown("""
     <strong>Note: You can only enter numbers into the yellow boxes.</strong>
 </div>
 """, unsafe_allow_html=True)
--+
-
 # --- Generate Plan Button ---
 if st.button("Calculate TPN Formulation", type="primary"):
     with st.spinner("Calculating TPN formulation..."):
